@@ -1,0 +1,114 @@
+/* リセットCSS */
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font: 500 1.4rem/1.6 'Chalkboard SE','Arial','ヒラギノ角ゴシック','Hiragino Sans','Yu Gothic UI',sans-serif;
+  color: #4c4c4c;
+  background-color: beige;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
+  font-size: 100%;
+}
+p {
+  margin-bottom: 1em;
+}
+ul {
+  list-style: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0px;
+}
+form label {
+  cursor: pointer;
+}
+a {
+  text-decoration: none;
+  color: #4c4c4c;
+}
+a:hover, a:active, a:focus {
+  color: #b2b2b2;
+}
+a img {
+  border: none;
+}
+.cf:after {
+  display: block;
+  clear: both;
+  content: '';
+}
+/* リセットCSSここまで */
+
+/* ヘッダー */
+header {
+  background-color: #fdfdfd;
+  border: 1px solid;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  font-size: larger;
+  font-weight: bolder;
+}
+
+.header-right > a {
+  margin:0 10px;
+}
+/* ヘッダーここまで */
+
+/* body */
+.main-container{
+  height: 400px;
+  width: 98%;
+  margin: 0 auto;
+  background-color: coral;
+}
+
+.main-container > a {
+  padding: 0 10px;
+  display: inline-block;
+  padding-top: 20px;
+}
+
+.main-container > h1,h2 {
+  font-size: 5rem;
+  color: white;
+  text-align: center;
+}
+
+.sub-container{
+  height: 300px;
+  width: 98%;
+  margin: 0 auto;
+  background-color: darkolivegreen;
+}
+
+label {
+  display: inline-block;
+  padding-top: 15px;
+}
+
+.btn{
+  border: black 1px solid;
+}
+
+.test{
+  margin: 50px 25px;
+}
+
+/* body ここまで */
+
+/* footer */
+footer {
+  height: 100px;
+  width: 100%;
+  background-color: #b2b2b2;
+}
+
+/* footer ここまで */
